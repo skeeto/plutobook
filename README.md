@@ -35,14 +35,10 @@ int main() {
 
 ## Installation
 
-Ensure you have [Meson](http://mesonbuild.com) and [Ninja](http://ninja-build.org) installed.
-
 ```bash
 git clone https://github.com/plutoprint/plutobook.git
 cd plutobook
-meson setup build
-ninja -C build
-ninja -C build install
+sh plutobook.cpp
 ```
 
 ## Dependencies
